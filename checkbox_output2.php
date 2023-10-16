@@ -1,4 +1,4 @@
-<?php require '../header.php';?>
+<?php require './header.php';?>
 <?php
 $color = $_REQUEST['color'];
 print_r($color);
@@ -7,4 +7,4 @@ foreach ($color as $favorite){
     echo $favorite.'が好きです'."<br>";
 }
 ?>
-<?php require '../footer.php';?>
+<?php require './footer.php';?>
