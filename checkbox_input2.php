@@ -1,4 +1,4 @@
-<?php require '../header.php';?>
+<?php require './header.php';?>
 <form action="checkbox_output2.php" method="post">
 
     <!-- colorを配列にした場合: チェックしたvalue全て送信 -->
@@ -10,4 +10,4 @@
     <label><input type="checkbox" name="color[]" value="黒">黒</label>
     <label><input type="submit" value="確定"></label>
 </form>
-<?php require '../footer.php';?>
+<?php require './footer.php';?>
